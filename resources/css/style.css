@@ -92,7 +92,7 @@ h4 {
 .product-image img {
 
     max-width: 8rem;
-    height: 9em;
+    /*height: 9em;*/
     padding: 2rem 0;
 }
 img {
