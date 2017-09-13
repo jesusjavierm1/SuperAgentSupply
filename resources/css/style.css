@@ -126,3 +126,55 @@ footer {
 .title{
   width: 14.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .mobile-nav {
+        display: block;
+        text-align: center;
+    }
+    .product-watch{
+      display: none;
+    }
+    .product-image {
+        width: 25rem;
+    }
+    nav .regular{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .product-image {
+        width: 20em;
+    }
+    nav .regular{
+      display: none;
+    }
+    .mobile-nav {
+        display: block;
+        text-align: center;
+    }
+    .product-watch{
+      display: none;
+    }
+    .product-glasses {
+      display: none;
+    }
+    .product{
+      justify-content: center;
+      margin: auto;
+    }
+  .business-info{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+
+}
